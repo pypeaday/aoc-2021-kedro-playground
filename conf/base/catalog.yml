@@ -2,3 +2,20 @@
 #
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://kedro.readthedocs.io/en/stable/05_data/01_data_catalog.html
+a_raw_day_one_test:
+    type: text.TextDataSet
+    filepath: ./data/day1_sample.txt
+
+a_raw_day_one:
+    type: text.TextDataSet
+    filepath: ./data/day1.txt
+
+b_int_day_one:
+    type: pandas.ParquetDataSet 
+    filepath: ./data/b_int/day1.parquet
+c_pri_day_one:
+    type: pandas.ParquetDataSet 
+    filepath: ./data/c_pri/day1.parquet
+d_fea_day_one_count:
+    type: text.TextDataSet
+    filepath: ./data/d_fea/day1_count.txt

@@ -29,3 +29,8 @@
 """
 
 __version__ = "0.1"
+
+from .pipelines import count_increases
+
+
+__all__ = ["count_increases"]
