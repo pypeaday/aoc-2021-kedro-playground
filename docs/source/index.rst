@@ -1,8 +1,8 @@
-.. new_kedro_project documentation master file, created by sphinx-quickstart.
+.. aoc_2021 documentation master file, created by sphinx-quickstart.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to project new_kedro_project's API docs!
+Welcome to project aoc_2021's API docs!
 =============================================
 
 .. toctree::

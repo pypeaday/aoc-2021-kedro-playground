@@ -28,9 +28,7 @@
 
 from setuptools import find_packages, setup
 
-entry_point = (
-    "new-kedro-project = new_kedro_project.__main__:main"
-)
+entry_point = "aoc-2021 = aoc_2021.__main__:main"
 
 
 # get the dependencies and installs
@@ -45,7 +43,7 @@ with open("requirements.txt", "r", encoding="utf-8") as f:
             requires.append(req)
 
 setup(
-    name="new_kedro_project",
+    name="aoc-2021",
     version="0.1",
     packages=find_packages(exclude=["tests"]),
     entry_points={"console_scripts": [entry_point]},

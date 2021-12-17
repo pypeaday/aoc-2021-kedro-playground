@@ -25,8 +25,8 @@
 #
 # See the License for the specific language governing permissions and
 # limitations under the License.
-"""New Kedro Project file for ensuring the package is executable
-as `new-kedro-project` and `python -m new_kedro_project`
+"""AOC 2021 file for ensuring the package is executable
+as `aoc-2021` and `python -m aoc_2021`
 """
 import importlib
 from pathlib import Path

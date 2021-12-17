@@ -25,7 +25,7 @@
 #
 # See the License for the specific language governing permissions and
 # limitations under the License.
-"""New Kedro Project
+"""AOC 2021
 """
 
 __version__ = "0.1"

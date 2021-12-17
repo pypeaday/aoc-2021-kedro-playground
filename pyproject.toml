@@ -1,6 +1,6 @@
 [tool.kedro]
-package_name = "new_kedro_project"
-project_name = "New Kedro Project"
+package_name = "aoc_2021"
+project_name = "AOC 2021"
 project_version = "0.17.5"
 
 [tool.isort]
@@ -14,4 +14,4 @@ known_third_party = "kedro"
 [tool.pytest.ini_options]
 addopts = """
 --cov-report term-missing \
---cov src/new_kedro_project -ra"""
+--cov src/aoc_2021 -ra"""
