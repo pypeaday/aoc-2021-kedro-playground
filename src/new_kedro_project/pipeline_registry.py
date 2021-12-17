@@ -40,4 +40,4 @@ def register_pipelines() -> Dict[str, Pipeline]:
     Returns:
         A mapping from a pipeline name to a ``Pipeline`` object.
     """
-    return {"day_one": Pipeline(day_one_nodes)}
+    return {"day_one": Pipeline(day_one_nodes), "day_two": Pipeline()}
