@@ -19,3 +19,6 @@ c_pri_day_one:
 d_fea_day_one_count:
     type: text.TextDataSet
     filepath: ./data/d_fea/day1_count.txt
+d_fea_day_one_slider_count:
+    type: text.TextDataSet
+    filepath: ./data/d_fea/day1_slider_count.txt
